@@ -32,7 +32,7 @@ DETECTRS_OMETIFF can read X,Y,Z,T,C value from OME.TIFF and separate single-/mul
 
 ###
 
-## Photo and/or Video (in the future if necessary)
+## Photo and/or Video (in the future, maybe)
 
 
 
