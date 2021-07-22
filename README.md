@@ -17,4 +17,7 @@ But if the order is not in standard OME ZTC order, I don't promise that.
 2. MATLAB Toolbox for BioFormats (openmicroscopy.org/bio-formats/downloads/)
 
 
-## Photo/Video (in the future if necessary)
+## Photo and/or Video (in the future if necessary)
+
+## Reference 
+TBA/TBD
