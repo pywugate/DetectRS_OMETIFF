@@ -15,7 +15,7 @@ Although they are wonderful apps with friendly GUI, mouse-moving and clicking ar
 ## What can DETECTRS_OMETIFF do?
 DETECTRS_OMETIFF can read X,Y,Z,T,C value from OME.TIFF and separate single-/multi- Z/T/C images into individual Z file(s).
 
-But if the order is not in standard OME ZTC order, I don't promise that.
+(But if the order is not in standard OME ZTC order, I don't promise that ^^.)
 
 ## Libraries used:
 1. MATLAB
@@ -23,6 +23,8 @@ But if the order is not in standard OME ZTC order, I don't promise that.
 
 
 ## Photo and/or Video (in the future if necessary)
+
+
 
 ## Reference 
 TBA/TBD
