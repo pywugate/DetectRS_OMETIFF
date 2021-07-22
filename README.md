@@ -28,7 +28,7 @@ DETECTRS_OMETIFF can read X,Y,Z,T,C value from OME.TIFF and separate single-/mul
 
 ## Libraries used:
 1. MATLAB
-2. MATLAB Toolbox for BioFormats from OME website: openmicroscopy.org/bio-formats/downloads/
+2. MATLAB Toolbox for BioFormats from OME website: *openmicroscopy.org/bio-formats/downloads/*
 
 ###
 
