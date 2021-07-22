@@ -6,7 +6,7 @@ The acquisition of multi-stack and multi-colour time series images is easy but t
 
 For example, the animal moving makes the motion correctiion a necessity step.
 
-But before that, we need to separate time series images in individual Z.
+And we need to separate time series images in individual Z.
 
 Users often manually do these tasks in ImageJ, Icy or other softwares : 1. read files, 2. re-order hyper-stack, 3. split colours, etc.
 
