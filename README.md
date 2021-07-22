@@ -24,13 +24,14 @@ DETECTRS_OMETIFF can read X,Y,Z,T,C value from OME.TIFF and separate single-/mul
 
 (But if the order is not in standard OME ZTC order, I don't promise that ^^.)
 
-## 
+###
 
 ## Libraries used:
 1. MATLAB
 2. MATLAB Toolbox for BioFormats (openmicroscopy.org/bio-formats/downloads/)
 
-## 
+###
+
 ## Photo and/or Video (in the future if necessary)
 
 
