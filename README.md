@@ -2,6 +2,8 @@
 
 DETECT_Read_Save_OMETIFF was designed to ease the use of ImageJ/Fiji for manual separation of single plane from multiple-ZTC image files (i.e. TIFF).
 
+####
+
 #### Why is DETECTRS_OMETIFF necessary?
 
 The acquisition of multi-stack and multi-colour time series images is easy but the pre-rocessing of it is not.
@@ -22,11 +24,13 @@ DETECTRS_OMETIFF can read X,Y,Z,T,C value from OME.TIFF and separate single-/mul
 
 (But if the order is not in standard OME ZTC order, I don't promise that ^^.)
 
+## 
+
 ## Libraries used:
 1. MATLAB
 2. MATLAB Toolbox for BioFormats (openmicroscopy.org/bio-formats/downloads/)
 
-
+## 
 ## Photo and/or Video (in the future if necessary)
 
 
