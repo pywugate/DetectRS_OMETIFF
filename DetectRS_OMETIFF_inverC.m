@@ -115,8 +115,8 @@ for c = 1:sizeC
 
         % if your system export ome.tiff with white background and you want
         % black background, use B to convert to black background
-        bfsave(uint16((matxyt)), outputpath);                    % --- A
-%         bfsave(uint16(imcomplement(matxyt)), outputpath);      % --- B
+%         bfsave(uint16((matxyt)), outputpath);                  % --- A
+        bfsave(uint16(imcomplement(matxyt)), outputpath);      % --- B
 
     end
 end
