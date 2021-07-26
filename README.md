@@ -6,15 +6,15 @@ DETECT_Read_Save_OMETIFF was designed to ease the use of ImageJ/Fiji for manual 
 
 #### Why do you need DETECTRS_OMETIFF?
 
-The acquisition of multi-stack and multi-colour time series images is easy but the pre-rocessing of it is not.
+After the acquisition of multi-stack and multi-colour time series images, we need some pre-rocessing.
 
-For example, the animal moving makes the motion correctiion a necessity step.
+For example, the animal moving makes the motion correctiion a necessary step; and we need to separate individual Z.
 
-And we need to separate time series images in individual Z.
+Users often manually do these tasks in ImageJ, Icy or other softwares: 1. read files, 2. re-order hyper-stack, 3. split, etc.
 
-Users often manually do these tasks in ImageJ, Icy or other softwares : 1. read files, 2. re-order hyper-stack, 3. split colours, etc.
+Although they are wonderful apps with friendly GUI, mouse-moving and clicking are still time-consuming.
 
-Although they are wonderful apps with friendly GUI, mouse-moving and clicking are time-consuming.
+An automatic and quick method to do all the data in same folder is a solution.
 
 
 ## What can DETECTRS_OMETIFF do?
@@ -22,12 +22,12 @@ DETECTRS_OMETIFF can read X,Y,Z,T,C value from OME.TIFF and separate single-/mul
 
 ### It means if you make MATLAB do the bulk conversion of multiple files for you, you earn much coffee time.
 
-(But if the order is not in standard OME ZTC order, I don't promise that ^^.)
+(But if the order of data is not standard OME ZTC order, I don't promise that ^^.)
 
 ###
 
 ## Libraries used:
-1. MATLAB
+1. MATLAB basics
 2. MATLAB Toolbox for BioFormats from OME website: *openmicroscopy.org/bio-formats/downloads/*
 
 ###
