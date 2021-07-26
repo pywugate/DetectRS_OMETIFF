@@ -34,8 +34,7 @@ DETECTRS_OMETIFF can read X,Y,Z,T,C value from OME.TIFF and separate single-/mul
 
 ## Photo and/or Video (in the future, maybe)
 
-![Concept](https://github.com/pywugate/DetectRS_OMETIFF/blob/main/Slide1.JPG)
-![Simple Steps](https://github.com/pywugate/DetectRS_OMETIFF/blob/main/Slide2.JPG)
+![Concept](https://github.com/pywugate/DetectRS_OMETIFF/blob/main/Slide.JPG)
 
 ## Reference 
 TBA/TBD
