@@ -6,9 +6,9 @@ DETECT_Read_Save_OMETIFF was designed to ease the use of ImageJ/Fiji for manual 
 
 #### Why do you need DETECTRS_OMETIFF?
 
-After the acquisition of multi-stack and multi-colour time series images, we need some pre-rocessing.
+After the acquisition of multi-stack and multi-colour time series images, some pre-rocessings need to be done before analysis.
 
-For example, the animal moving makes the motion correctiion a necessary step; and we need to separate individual Z.
+For example, the animal moving makes the motion correction a necessary step; and we need to separate individual Z for motion correction.
 
 Users often manually do these tasks in ImageJ, Icy or other softwares: 1. read files, 2. re-order hyper-stack, 3. split, etc.
 
