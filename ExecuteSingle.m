@@ -1,8 +1,8 @@
 tic;
-%%%%%%%%%%%%%%%%%%%            Selection           %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%            Selection          %%%%%%%%%%%%%%%%%%%
 [filename, path] = uigetfile('*.ome.tiff', 'Choose a file to open');
 
-%%%%%%%%%%%%%%%%%%%    Question: Invert colour?    %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%    Question: Invert colour?   %%%%%%%%%%%%%%%%%%%
 group = 'Updates';
 pref =  'ColourInversion';
 title = 'Inverting';
@@ -12,12 +12,12 @@ quest = {'Do you want to invert colour?'...
 pbtns = {'Yes','No'};
 [pval,tf] = uigetpref(group,pref,title,quest,pbtns);
 
-%%%%%%%%%%%%%%%%%%% Detect,Load, Save individual Z %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%% Detect,Load,Save individual Z %%%%%%%%%%%%%%%%%%%
 switch pval
     case No
         DetectRS_OMETIFF(filename,path);
     case Yes
         DetectRS_OMETIFF_inverC(filename,path);
 end
-%%%%%%%%%%%%%%%%%%%                                %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%                               %%%%%%%%%%%%%%%%%%%
 toc;
