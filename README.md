@@ -4,7 +4,7 @@ DETECT_Read_Save_OMETIFF was designed to ease the use of ImageJ/Fiji for manual 
 
 ####
 
-#### Why is DETECTRS_OMETIFF necessary?
+#### Why do you need DETECTRS_OMETIFF?
 
 The acquisition of multi-stack and multi-colour time series images is easy but the pre-rocessing of it is not.
 
