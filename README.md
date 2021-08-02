@@ -1,6 +1,6 @@
 # DetectRS_OMETIFF
 
-***Detect***_ ***R***ead_ ***S***ave ***_OMETIFF*** was designed to ease the use of ImageJ/Fiji for manual separation of single plane from multiple-ZTC image files (i.e. TIFF).
+***Detect***_ ***R***ead_ ***S***ave ***_OMETIFF*** was designed to ease the use of ImageJ/Fiji for manual separation of single plane from multiple-ZTC 'ome.tiff' files.
 
 ###
 
