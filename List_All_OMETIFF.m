@@ -1,12 +1,12 @@
 function filelist=Listint_All_OMETIFF
 
-folderpath  = uigetdir( 'select folder');
+rootdir  = uigetdir( 'select folder');
 
-if isempty(dir(folderpath))
+if isempty(dir(rootdir))
     error('Invalid folder path.')
 end
 
-s = dir (folderpath) ;
+s = dir (fullfile(rootdir, '**\*.ome.tiff*'));
 
 % listing all the '.ome.tiff' files
 str = {s.name}; 
