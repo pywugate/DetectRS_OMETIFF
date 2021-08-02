@@ -14,13 +14,13 @@ Users often manually do these tasks in ImageJ, Icy or other softwares: 1. read f
 
 Although they are wonderful apps with friendly GUI, mouse-moving and clicking are still time-consuming.
 
-#### An automatic and quick method to do all the data in same folder is a solution.
+**An automatic and quick method to do all the data in same folder is a solution.**
 
 
 ## What can DETECTRS_OMETIFF do?
 DetectRS_OMETIFF can read X,Y,Z,T,C value from OME.TIFF and separate single-/multi- Z/C images into individual Z as time series file(s).
 
-#### Make MATLAB do the job for you, you earn much coffee time.
+**Make MATLAB do the job for you, you earn much coffee time.**
 
 (I don't promise that if the order of data is not standard OME ZTC order ^^.)
 
