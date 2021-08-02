@@ -18,7 +18,7 @@ An automatic and quick method to do all the data in same folder is a solution.
 
 
 ## What can DETECTRS_OMETIFF do?
-DetectRS_OMETIFF can read X,Y,Z,T,C value from OME.TIFF and separate single-/multi- Z/T/C images into individual Z file(s).
+DetectRS_OMETIFF can read X,Y,Z,T,C value from OME.TIFF and separate single-/multi- Z/C images into individual Z as time series file(s).
 
 ### It means if you make MATLAB do the bulk conversion of multiple files for you, you earn much coffee time.
 
