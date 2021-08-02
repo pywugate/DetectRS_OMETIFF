@@ -22,7 +22,7 @@ DETECTRS_OMETIFF can read X,Y,Z,T,C value from OME.TIFF and separate single-/mul
 
 ### It means if you make MATLAB do the bulk conversion of multiple files for you, you earn much coffee time.
 
-(But if the order of data is not standard OME ZTC order, I don't promise that ^^.)
+(I don't promise that if the order of data is not standard OME ZTC order ^^.)
 
 ###
 
