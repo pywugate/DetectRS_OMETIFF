@@ -4,7 +4,7 @@
 
 ####
 
-#### Why do you need DetectRS_OMETIFF?
+## Why do you need DetectRS_OMETIFF?
 
 After the acquisition of multi-stack and multi-colour time series images, some pre-rocessings need to be done before analysis.
 
