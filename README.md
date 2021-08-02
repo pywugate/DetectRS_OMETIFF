@@ -14,7 +14,7 @@ Users often manually do these tasks in ImageJ, Icy or other softwares: 1. read f
 
 Although they are wonderful apps with friendly GUI, mouse-moving and clicking are still time-consuming.
 
-An automatic and quick method to do all the data in same folder is a solution.
+### An automatic and quick method to do all the data in same folder is a solution.
 
 
 ## What can DETECTRS_OMETIFF do?
