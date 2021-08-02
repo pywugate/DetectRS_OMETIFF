@@ -1,6 +1,6 @@
-# DETECTRS_OMETIFF
+# DetectRS_OMETIFF
 
-DETECT_Read_Save_OMETIFF was designed to ease the use of ImageJ/Fiji for manual separation of single plane from multiple-ZTC image files (i.e. TIFF).
+***Detect***_ ***R***ead_ ***S***ave ***_OMETIFF*** was designed to ease the use of ImageJ/Fiji for manual separation of single plane from multiple-ZTC image files (i.e. TIFF).
 
 ####
 
@@ -18,7 +18,7 @@ An automatic and quick method to do all the data in same folder is a solution.
 
 
 ## What can DETECTRS_OMETIFF do?
-DETECTRS_OMETIFF can read X,Y,Z,T,C value from OME.TIFF and separate single-/multi- Z/T/C images into individual Z file(s).
+DetectRS_OMETIFF can read X,Y,Z,T,C value from OME.TIFF and separate single-/multi- Z/T/C images into individual Z file(s).
 
 ### It means if you make MATLAB do the bulk conversion of multiple files for you, you earn much coffee time.
 
