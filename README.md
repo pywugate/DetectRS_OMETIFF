@@ -30,10 +30,10 @@ DetectRS_OMETIFF can read X,Y,Z,T,C value from OME.TIFF and separate single-/mul
 It is very simple!
 
 ### For testing
-Execute DetectRS_OMETIFF_Single in Command Window of MATLAB and select the file you want
+Execute **DetectRS_OMETIFF_Single** in Command Window of MATLAB and select the file you want
 
 ### For bulk
-Execute DetectRS_OMETIFF in command Window of MATLAB and select the folder you want.
+Execute **DetectRS_OMETIFF** in command Window of MATLAB and select the folder you want.
 
 ***Note that all the ome.tiff in the subfolder inside the folder you chose will be processessed.***
 
