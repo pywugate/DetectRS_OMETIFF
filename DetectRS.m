@@ -24,8 +24,8 @@ while ~exist('filename', 'var'), error('file selection fails');end
 while ~exist('path', 'var'), error ('path selection fails');end
 
 fullfilepath = strcat(path,filename);
-RawData = bfopen_vPingYen(fullfilepath);
-[sizeX,sizeY] = size(RawData{1,1}{1,1});
+OmeTiff = bfopen_vPingYen(fullfilepath);
+[sizeX,sizeY] = size(OmeTiff{1,1}{1,1});
 
 % Get size of Z, C, T, P
 r = bfGetReader(fullfilepath);
@@ -57,7 +57,7 @@ for c = 1:sizeC
 % so 'fold' is used for next colour
     fold = (c-1)*sizeP/sizeC;
     for i = 1:sizeP/sizeC
-        data{i} = (RawData{1,1}{i+(1*fold),1});
+        data{i} = (OmeTiff{1,1}{i+(1*fold),1});
         
         % remainder after divison for Z
         z = rem(i,sizeZ);
@@ -112,7 +112,7 @@ for c = 1:sizeC
         zstr = strcat('z', num2str(z));
         colstr = strcat('c', num2str(c)); 
         idx = strfind (filename, '.o');
-        output = strcat ('\SingleZ\', filename(1:idx), colstr, zstr, '.tiff');
+        output = strcat ('\SingleZ\', filename(1:idx-1), colstr, zstr, '.tiff');
 
 %         output = strcat ('SingleZ\', filename(1:idx), sprintf('c%d',c), sprintf('p%d',z), '.tiff');
         outputpath = strcat (path, output);
